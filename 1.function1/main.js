@@ -3,7 +3,7 @@ function reverseString(message) {
     var reversedStrArr = [];
     var reversedStr = '';
 
-    for(i = 0; i <= message.length - 1; i++) {
+    for(i =  message.length - 1; i >= 0; i--) {
         reversedStrArr.push(message[i]);
     }
 
